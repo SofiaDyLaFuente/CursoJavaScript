@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de JavaScript</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <div class= chart>
+        <div class="chart_types">
+            <button onclick="setChartType('bar')">Barra</button>
+            <button onclick="setChartType('line')">Linha</button>
+            <button onclick="setChartType('radar')">Radar</button>
+            <button onclick="setChartType('pie')">Pizza</button>
+            <button onclick="setChartType('polarArea')">Polar</button>   
+
+        </div>
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="Main.js"></script>
+
+</body>
+</html>
