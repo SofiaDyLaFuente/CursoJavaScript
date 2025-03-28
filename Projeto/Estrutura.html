@@ -7,17 +7,21 @@
     <link rel="stylesheet" href="Estilos.css">
 </head>
 <body>
+    <header class="header">
+        <h1>Projeto de JavaScript</h1>
+    </header>
     <div class= chart>
         <div class="chart_types">
             <button onclick="setChartType('bar')">Barra</button>
+            
             <button onclick="setChartType('line')">Linha</button>
             <button onclick="setChartType('radar')">Radar</button>
             <button onclick="setChartType('pie')">Pizza</button>
-            <button onclick="setChartType('polarArea')">Polar</button>   
-
         </div>
         <canvas id="myChart"></canvas>
     </div>
+
+    <footer id="ipe-footer"></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="Main.js"></script>
